@@ -1,0 +1,317 @@
+<div class="tabItem season-5" data-tab-data-url="/summoner/champions/ajax/champions.rank/summonerId=53840413&amp;season=5" style="display: block;">	<table class="ChampionStatsTable sortable tablesorter tablesorter-default" role="grid">
+	<colgroup>
+		<col width="38">
+		<col width="32">
+		<col width="89">
+		<col width="131">
+		<col width="124">
+		<col width="44">
+		<col width="54">
+					<col width="47">
+			<col width="46">
+			<col width="63">
+			<col width="63">
+			<col width="63">
+			<col width="49">
+			<col width="43">
+			<col width="45">
+			</colgroup>
+	<thead class="Header">
+		<tr class="Row tablesorter-headerRow" role="row">
+			<th class="Rank HeaderCell tablesorter-header tablesorter-headerUnSorted" data-column="0" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" style="user-select: none;" aria-sort="none" aria-label="#: No sort applied, activate to apply an ascending sort"><div class="tablesorter-header-inner">#</div></th>
+			<th class="Champion HeaderCell tablesorter-header tablesorter-headerUnSorted" colspan="2" data-column="1" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" style="user-select: none;" aria-sort="none" aria-label="Champion: No sort applied, activate to apply a descending sort"><div class="tablesorter-header-inner">Champion</div></th>
+			<th class="RatioGraph HeaderCell tablesorter-header tablesorter-headerUnSorted" data-column="3" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" style="user-select: none;" aria-sort="none" aria-label="Played: No sort applied, activate to apply a descending sort"><div class="tablesorter-header-inner">Played</div></th>
+			<th class="KDA HeaderCell tablesorter-header tablesorter-headerUnSorted" data-column="4" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" style="user-select: none;" aria-sort="none" aria-label="KDA: No sort applied, activate to apply a descending sort"><div class="tablesorter-header-inner">KDA</div></th>
+			<th class="Gold HeaderCell tablesorter-header tablesorter-headerUnSorted" data-column="5" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" style="user-select: none;" aria-sort="none" aria-label="Gold: No sort applied, activate to apply a descending sort"><div class="tablesorter-header-inner">Gold</div></th>
+			<th class="CS HeaderCell tablesorter-header tablesorter-headerUnSorted" data-column="6" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" style="user-select: none;" aria-sort="none" aria-label="CS: No sort applied, activate to apply a descending sort"><div class="tablesorter-header-inner">CS</div></th>
+											<th class="MaxKill HeaderCell tablesorter-header tablesorter-headerUnSorted" data-column="7" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" style="user-select: none;" aria-sort="none" aria-label="Max Kills: No sort applied, activate to apply a descending sort"><div class="tablesorter-header-inner">Max Kills</div></th>
+				<th class="MaxDeath HeaderCell tablesorter-header tablesorter-headerUnSorted" data-column="8" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" style="user-select: none;" aria-sort="none" aria-label="Max Deaths: No sort applied, activate to apply a descending sort"><div class="tablesorter-header-inner">Max Deaths</div></th>
+				<th class="Gold HeaderCell tablesorter-header tablesorter-headerUnSorted" data-column="9" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" style="user-select: none;" aria-sort="none" aria-label="Average Damage Dealt: No sort applied, activate to apply a descending sort"><div class="tablesorter-header-inner">Average Damage Dealt</div></th>
+				<th class="Gold HeaderCell tablesorter-header tablesorter-headerUnSorted" data-column="10" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" style="user-select: none;" aria-sort="none" aria-label="Average Damage Taken: No sort applied, activate to apply a descending sort"><div class="tablesorter-header-inner">Average Damage Taken</div></th>
+				<th class="Gold HeaderCell tablesorter-header tablesorter-headerUnSorted" data-column="11" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" style="user-select: none;" aria-sort="none" aria-label="Double Kill: No sort applied, activate to apply a descending sort"><div class="tablesorter-header-inner">Double Kill</div></th>
+				<th class="Gold HeaderCell tablesorter-header tablesorter-headerUnSorted" data-column="12" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" style="user-select: none;" aria-sort="none" aria-label="Triple Kill: No sort applied, activate to apply a descending sort"><div class="tablesorter-header-inner">Triple Kill</div></th>
+				<th class="Gold HeaderCell tablesorter-header tablesorter-headerUnSorted" data-column="13" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" style="user-select: none;" aria-sort="none" aria-label="Quadra Kill: No sort applied, activate to apply a descending sort"><div class="tablesorter-header-inner">Quadra Kill</div></th>
+				<th class="Gold HeaderCell tablesorter-header tablesorter-headerUnSorted" data-column="14" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" style="user-select: none;" aria-sort="none" aria-label="Penta Kill: No sort applied, activate to apply a descending sort"><div class="tablesorter-header-inner">Penta Kill</div></th>
+					</tr>
+	</thead>
+	<tbody class="Body" aria-live="polite" aria-relevant="all">
+								<tr class="Row TopRanker" role="row">
+				<td class="Rank Cell">1</td>
+				<td class="ChampionImage Cell">
+					<a href="/champion/kalista/statistics" target="_blank">
+						<div class="Image __sprite __spc32 __spc32-51">Kalista</div>
+					</a>
+				</td>
+				<td class="ChampionName Cell" data-value="Kalista">
+					<a href="/champion/kalista/statistics" target="_blank">Kalista</a>
+				</td>
+									<td class="RatioGraph Cell" data-value="33.333333333333">
+						<div class="WinRatioGraph">
+							<div class="Graph">
+																	<div class="Fill Left" style="width: 33%"></div>
+									<div class="Text Left">2W</div>
+																									<div class="Fill Right"></div>
+									<div class="Text Right">4L</div>
+																									<div class="Bar" style="left: 33%;"></div>
+															</div>
+							<span class="WinRatio normal">33%</span>
+						</div>
+					</td>
+								<td class="KDA Cell normal" data-value="0.78">
+					<div class="KDA">
+						<span class="Kill">2.3</span> /
+						<span class="Death">6.0</span> /
+						<span class="Assist">2.3</span>
+					</div>
+					0.78:1
+				</td>
+				<td class="Value Cell">
+					6,541
+				</td>
+				<td class="Value Cell">
+					105.3 (0.0)
+				</td>
+																									<td class="Value Cell">
+						4
+					</td>
+					<td class="Value Cell">
+						9
+					</td>
+					<td class="Value Cell">
+						50,236
+					</td>
+					<td class="Value Cell">
+						10,922
+					</td>
+					<td class="Value Cell">
+													1
+											</td>
+					<td class="Value Cell">
+											</td>
+					<td class="Value Cell">
+											</td>
+					<td class="Value Cell">
+											</td>
+							</tr>
+								<tr class="Row TopRanker" role="row">
+				<td class="Rank Cell">2</td>
+				<td class="ChampionImage Cell">
+					<a href="/champion/xerath/statistics" target="_blank">
+						<div class="Image __sprite __spc32 __spc32-145">Xerath</div>
+					</a>
+				</td>
+				<td class="ChampionName Cell" data-value="Xerath">
+					<a href="/champion/xerath/statistics" target="_blank">Xerath</a>
+				</td>
+									<td class="RatioGraph Cell" data-value="25">
+						<div class="WinRatioGraph">
+							<div class="Graph">
+																	<div class="Fill Left" style="width: 25%"></div>
+									<div class="Text Left">1W</div>
+																									<div class="Fill Right"></div>
+									<div class="Text Right">3L</div>
+																									<div class="Bar" style="left: 25%;"></div>
+															</div>
+							<span class="WinRatio normal">25%</span>
+						</div>
+					</td>
+								<td class="KDA Cell normal" data-value="1.64">
+					<div class="KDA">
+						<span class="Kill">8.0</span> /
+						<span class="Death">8.3</span> /
+						<span class="Assist">5.5</span>
+					</div>
+					1.64:1
+				</td>
+				<td class="Value Cell">
+					11,051
+				</td>
+				<td class="Value Cell">
+					114.0 (0.0)
+				</td>
+																									<td class="Value Cell">
+						8
+					</td>
+					<td class="Value Cell">
+						10
+					</td>
+					<td class="Value Cell">
+						65,142
+					</td>
+					<td class="Value Cell">
+						13,757
+					</td>
+					<td class="Value Cell">
+											</td>
+					<td class="Value Cell">
+											</td>
+					<td class="Value Cell">
+											</td>
+					<td class="Value Cell">
+											</td>
+							</tr>
+								<tr class="Row TopRanker" role="row">
+				<td class="Rank Cell">3</td>
+				<td class="ChampionImage Cell">
+					<a href="/champion/thresh/statistics" target="_blank">
+						<div class="Image __sprite __spc32 __spc32-125">Thresh</div>
+					</a>
+				</td>
+				<td class="ChampionName Cell" data-value="Thresh">
+					<a href="/champion/thresh/statistics" target="_blank">Thresh</a>
+				</td>
+									<td class="RatioGraph Cell" data-value="0">
+						<div class="WinRatioGraph">
+							<div class="Graph">
+																									<div class="Fill Right"></div>
+									<div class="Text Right">3L</div>
+																							</div>
+							<span class="WinRatio normal">0%</span>
+						</div>
+					</td>
+								<td class="KDA Cell normal" data-value="1.85">
+					<div class="KDA">
+						<span class="Kill">1.7</span> /
+						<span class="Death">6.7</span> /
+						<span class="Assist">10.7</span>
+					</div>
+					1.85:1
+				</td>
+				<td class="Value Cell">
+					7,970
+				</td>
+				<td class="Value Cell">
+					21.7 (0.0)
+				</td>
+																									<td class="Value Cell">
+						0
+					</td>
+					<td class="Value Cell">
+						0
+					</td>
+					<td class="Value Cell">
+						0
+					</td>
+					<td class="Value Cell">
+						0
+					</td>
+					<td class="Value Cell">
+											</td>
+					<td class="Value Cell">
+											</td>
+					<td class="Value Cell">
+											</td>
+					<td class="Value Cell">
+											</td>
+							</tr>
+								<tr class="Row TopRanker" role="row">
+				<td class="Rank Cell">4</td>
+				<td class="ChampionImage Cell">
+					<a href="/champion/azir/statistics" target="_blank">
+						<div class="Image __sprite __spc32 __spc32-11">Azir</div>
+					</a>
+				</td>
+				<td class="ChampionName Cell" data-value="Azir">
+					<a href="/champion/azir/statistics" target="_blank">Azir</a>
+				</td>
+									<td class="RatioGraph Cell" data-value="100">
+						<div class="WinRatioGraph">
+							<div class="Graph">
+																	<div class="Fill Left" style="width: 100%"></div>
+									<div class="Text Left">1W</div>
+																															</div>
+							<span class="WinRatio red">100%</span>
+						</div>
+					</td>
+								<td class="KDA Cell normal" data-value="2">
+					<div class="KDA">
+						<span class="Kill">2.0</span> /
+						<span class="Death">1.0</span> /
+						<span class="Assist">0.0</span>
+					</div>
+					2:1
+				</td>
+				<td class="Value Cell">
+					3,766
+				</td>
+				<td class="Value Cell">
+					30.0 (0.0)
+				</td>
+																									<td class="Value Cell">
+						2
+					</td>
+					<td class="Value Cell">
+						1
+					</td>
+					<td class="Value Cell">
+						22,781
+					</td>
+					<td class="Value Cell">
+						940
+					</td>
+					<td class="Value Cell">
+													1
+											</td>
+					<td class="Value Cell">
+											</td>
+					<td class="Value Cell">
+											</td>
+					<td class="Value Cell">
+											</td>
+							</tr>
+								<tr class="Row TopRanker" role="row">
+				<td class="Rank Cell">5</td>
+				<td class="ChampionImage Cell">
+					<a href="/champion/annie/statistics" target="_blank">
+						<div class="Image __sprite __spc32 __spc32-7">Annie</div>
+					</a>
+				</td>
+				<td class="ChampionName Cell" data-value="Annie">
+					<a href="/champion/annie/statistics" target="_blank">Annie</a>
+				</td>
+									<td class="RatioGraph Cell" data-value="0">
+						<div class="WinRatioGraph">
+							<div class="Graph">
+																									<div class="Fill Right"></div>
+									<div class="Text Right">1L</div>
+																							</div>
+							<span class="WinRatio normal">0%</span>
+						</div>
+					</td>
+								<td class="KDA Cell normal" data-value="0.25">
+					<div class="KDA">
+						<span class="Kill">1.0</span> /
+						<span class="Death">8.0</span> /
+						<span class="Assist">1.0</span>
+					</div>
+					0.25:1
+				</td>
+				<td class="Value Cell">
+					4,268
+				</td>
+				<td class="Value Cell">
+					44.0 (0.0)
+				</td>
+																									<td class="Value Cell">
+						1
+					</td>
+					<td class="Value Cell">
+						8
+					</td>
+					<td class="Value Cell">
+						21,662
+					</td>
+					<td class="Value Cell">
+						12,282
+					</td>
+					<td class="Value Cell">
+											</td>
+					<td class="Value Cell">
+											</td>
+					<td class="Value Cell">
+											</td>
+					<td class="Value Cell">
+											</td>
+							</tr>
+			</tbody>
+</table></div>

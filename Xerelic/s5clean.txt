@@ -1,0 +1,69 @@
+#
+Champion
+Played
+KDA
+Gold
+CS
+Max Kills
+Max Deaths
+Average Damage Dealt
+Average Damage Taken
+Double Kill
+Triple Kill
+Quadra Kill
+Penta Kill
+1
+KalistaKalista2W4L
+33%
+2.3 /
+6.0 /
+2.30.78:1
+6,541
+105.3 (0.0)
+4
+9
+50,236
+10,922
+12
+XerathXerath1W3L
+25%
+8.0 /
+8.3 /
+5.51.64:1
+11,051
+114.0 (0.0)
+8
+10
+65,142
+13,7573
+ThreshThresh3L0%
+1.7 /
+6.7 /
+10.71.85:1
+7,970
+21.7 (0.0)
+0
+0
+0
+04
+AzirAzir1W100%
+2.0 /
+1.0 /
+0.02:1
+3,766
+30.0 (0.0)
+2
+1
+22,781
+940
+15
+AnnieAnnie1L0%
+1.0 /
+8.0 /
+1.00.25:1
+4,268
+44.0 (0.0)
+1
+8
+21,662
+12,282

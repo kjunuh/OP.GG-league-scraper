@@ -1,0 +1,36 @@
+#
+Champion
+Played
+KDA
+Gold
+CS
+Max Kills
+Max Deaths
+Average Damage Dealt
+Average Damage Taken
+Double Kill
+Triple Kill
+Quadra Kill
+Penta Kill
+1
+IllaoiIllaoi3W3L
+50%
+3.2 /
+4.5 /
+2.51.26:1
+10,534
+171.8 (0.0)
+7
+7
+144,082
+25,2582
+HeimerdingerHeimerdinger2L0%
+0.5 /
+2.5 /
+0.50.4:1
+5,421
+58.0 (0.0)
+1
+4
+32,106
+4,757

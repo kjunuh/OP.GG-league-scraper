@@ -1,0 +1,77 @@
+#
+Champion
+Played
+KDA
+Gold
+CS
+Max Kills
+Max Deaths
+Average Damage Dealt
+Average Damage Taken
+Double Kill
+Triple Kill
+Quadra Kill
+Penta Kill
+1
+ZacZac11W14L
+44%
+4.0 /
+5.1 /
+12.33.2:1
+10,159
+46.0 (0.0)
+8
+10
+78,081
+25,297
+42
+DravenDraven2W9L
+18%
+5.8 /
+6.4 /
+6.31.9:1
+11,879
+146.9 (0.0)
+13
+12
+100,731
+17,168
+7
+13
+HeimerdingerHeimerdinger3W6L
+33%
+4.7 /
+6.1 /
+5.71.69:1
+9,432
+144.6 (0.0)
+11
+12
+101,838
+15,755
+5
+14
+TryndamereTryndamere1W3L
+25%
+7.5 /
+6.5 /
+6.52.15:1
+12,816
+118.8 (0.0)
+16
+7
+150,441
+40,097
+65
+RengarRengar1W3L
+25%
+6.0 /
+8.8 /
+8.01.6:1
+10,843
+42.8 (0.0)
+8
+11
+93,629
+26,337
+2
