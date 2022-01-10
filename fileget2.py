@@ -43,7 +43,7 @@ def getSeason(summID=53840413, seasonID=17):
             app[1] = int(wl[0].strip("W"))+int(wl[1].strip("L"))
             app[2] = int(wl[0].strip("W")) # wins
             app[3] = int(wl[1].strip("L"))
-            app[4] = int(wl[0].strip("W"))/app[1]
+            app[4] = round(int(wl[0].strip("W"))/app[1], 3)
         else:
             print('len WL wrong')
         app[5], app[6], app[7] = [float(x) for x in elem[4].split("  ")[0].split(" / ")]
@@ -87,6 +87,12 @@ def makeData(username):
         for elem in dataList:
             writer.writerows(elem)
 
-tfec = ['coolwhip420', 'nraddlygew', 'sekou', 'stealthinator', 'emended', 'xerelic', 'poweredbyrice', 'duckyduckplaysmc', 'meteoryte']
-for person in tfec:
-    makeData(person)
+tfec = ['elfsuf', 'coolwhip420', 'nraddlygew', 'sekou', 'stealthinator', 'emended', 'xerelic', 'poweredbyrice', 'duckyduckplaysmc', 'meteoryte']
+
+ugglee = ['forlorn64', 'chrismonytf', 'parad0x05', '9wonwon', 'xerelic', 'jonbom', 'junpi', 'aurumrock', 'hipbo', 'theristis', 'cocheese01', 'minibatman', 'nickizer534']
+
+
+
+# for person in ugglee:
+#     makeData(person)
+
