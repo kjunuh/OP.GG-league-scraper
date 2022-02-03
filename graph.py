@@ -6,35 +6,44 @@ folder = 'data/'
 
 def plotChamps(username):
     global folder
-    data = pd.read_csv(folder+username+'.csv')
-
-    for champ in data.loc[data['Games Played'] >= 5]['Champion'].unique():
-        x,y = [],[]
+    data = pd.read_hdf(folder+username+'.h5', 'df')
+    dic = {}
+    fig, ax = plt.subplots()
+    for champ in data.loc[data['Games Played'] >= 15]['Champion'].unique():
+        # x,y = [],[]
         d = data.loc[data['Champion'] == champ]
+        # print(champ)
+        try: len(dic[champ])
+        except: dic[champ] = []
         for i in sorted(data['Season'].unique()):
-            x.append(i)
+            # x.append(i)
             if d.loc[d['Season'] == i].empty:
-                y.append(0)
+                dic[champ].append(0)
             else:
-                y.append(d.loc[d['Season'] == i]['Games Played'].values)
-        plt.plot(x,y, label=champ, alpha=.5, linewidth=3)
+                dic[champ].append(d.loc[d['Season'] == i]['Games Played'].values[0])
+        # print(champ)
 
-    tGames = [[],[]]
+    # tGames = [[],[]]
+    seasons = []
     for i in data['Season'].unique():
-        tGames[0].append(i)
-        tGames[1].append(data.loc[data['Season'] == i]['Games Played'].sum())
-    plt.plot(tGames[0],tGames[1], label='Total Games', alpha=.5, linewidth=3)
+        seasons.append(i)
+    #     dic['Total Games'] = data.loc[data['Season'] == i]['Games Played'].sum()
+        
+    # ax.stackplot(tGames[0],tGames[1], label='Total Games', alpha=.5, linewidth=3)
+    # print(seasons, dic)
+    ax.stackplot(seasons, dic.values(), labels=dic.keys(), alpha=0.8)
+    ax.legend(loc='upper left')
+    ax.set_title(username+' Champion Games per Season')
+    ax.set_xlabel('Season')
+    ax.set_ylabel('Ranked Games Played')
 
-    plt.xlabel('Season')
-    plt.ylabel('Ranked Games Played')
-    plt.legend(loc='best')
     plt.show()
 
 def plotGames(userList):
     global folder
     for user in userList:
         tGames = [[],[]]
-        data = pd.read_csv(folder+user+'.csv')
+        data = pd.read_hdf(folder+user+'.h5', 'df')
         for i in data['Season'].unique():
             tGames[0].append(i)
             tGames[1].append(data.loc[data['Season'] == i]['Games Played'].sum())
@@ -47,8 +56,8 @@ def plotGames(userList):
 
 def plotCS(username):
     global folder
-    data = pd.read_csv(folder+username+'.csv')
-    for champ in data.loc[data['Games Played'] >= 30]['Champion'].unique():
+    data = pd.read_hdf(folder+username+'.h5', 'df')
+    for champ in data.loc[data['Games Played'] >= 10]['Champion'].unique():
         d = data.loc[data['Champion'] == champ]
         plt.plot(d['Season'].values,d['CS/m'].values, label=champ, alpha=.5, linewidth=3)
 
@@ -56,7 +65,14 @@ def plotCS(username):
     plt.ylabel('CS/M')
     plt.legend(loc='best')
     plt.show()
+
+iu = ['CyborgSteve', 'D3f3ctive', 'Kevalon', 'AmericanHussar', 'co1iflower', '10slayer', 'MrLDS', 'YourLocalThicc', 'NiabiIsHere', 'Wulfph']
 ugglee = ['forlorn64', 'chrismonytf', 'parad0x05', '9wonwon', 'jonbom', 'junpi', 'aurumrock', 'hipbo', 'theristis', 'cocheese01', 'minibatman', 'nickizer534', ]
-# plotGames(['elfsuf','coolwhip420', 'nraddlygew', 'sekou', 'stealthinator', 'emended', 'xerelic', 'poweredbyrice', 'duckyduckplaysmc', 'meteoryte'])
-plotGames(ugglee)
-# plotCS('xerelic')
+tfec = ['elfsuf','coolwhip420', 'nraddlygew', 'sekou', 'stealthinator', 'emended', 'xerelic', 'poweredbyrice', 'duckyduckplaysmc', 'meteoryte']
+# plotGames(tfec)
+# plotChamps('soccer11235')
+
+# plotChamps('xerelic')
+# plotChamps('cyborgsteve')
+# plotCS('CyborgSteve')
+# plotChamps('kevalon')
