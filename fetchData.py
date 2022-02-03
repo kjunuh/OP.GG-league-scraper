@@ -1,10 +1,10 @@
+import re
+from timeit import default_timer as timer
+
+import pandas as pd
 import urllib.request
 from pprint import pprint
 from html_table_parser.parser import HTMLTableParser
-import csv
-import re
-import pandas as pd
-from timeit import default_timer as timer
 
 folder = 'data/'
 def getSeason(summID=53840413, seasonID=17, username='xerelic', debug=False):
@@ -64,9 +64,6 @@ def getSeason(summID=53840413, seasonID=17, username='xerelic', debug=False):
     # print(df)
     return df
 
-        # clean.append(elem[1], )
-    # pprint(p.tables)
-
 def getSummId(username):
     link = 'https://na.op.gg/summoner/userName='+username
     req = urllib.request.Request(url=link)
@@ -90,9 +87,7 @@ def makeData(username):
     
     for season in seasonIDs:
         m.append(getSeason(summID, season, username))
-        # print(m)
-        # print("m",m)
-        # print("df",df)
+
     fdf = pd.concat(m)
     fdf.to_hdf(folder+username+'.h5', key='df')
     end = timer()
@@ -108,8 +103,3 @@ def makeData(username):
 tfec = ['elfsuf', 'coolwhip420', 'nraddlygew', 'sekou', 'stealthinator', 'emended', 'xerelic', 'poweredbyrice', 'duckyduckplaysmc', 'meteoryte']
 ugglee = ['forlorn64', 'chrismonytf', 'parad0x05', '9wonwon', 'xerelic', 'jonbom', 'junpi', 'aurumrock', 'hipbo', 'theristis', 'cocheese01', 'minibatman', 'nickizer534']
 iu = ['CyborgSteve', 'D3f3ctive', 'Kevalon', 'AmericanHussar', 'co1iflower', '10slayer', 'MrLDS', 'YourLocalThicc', 'NiabiIsHere']
-# for person in (ugglee+tfec+iu):
-#     makeData(person)
-
-# for person in iu:
-#     makeData(person)

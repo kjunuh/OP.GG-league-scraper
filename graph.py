@@ -1,5 +1,5 @@
-from matplotlib.colors import Colormap
 import pandas as pd
+from matplotlib.colors import Colormap
 import matplotlib.pyplot as plt
 
 folder = 'data/'
@@ -69,10 +69,3 @@ def plotCS(username):
 iu = ['CyborgSteve', 'D3f3ctive', 'Kevalon', 'AmericanHussar', 'co1iflower', '10slayer', 'MrLDS', 'YourLocalThicc', 'NiabiIsHere', 'Wulfph']
 ugglee = ['forlorn64', 'chrismonytf', 'parad0x05', '9wonwon', 'jonbom', 'junpi', 'aurumrock', 'hipbo', 'theristis', 'cocheese01', 'minibatman', 'nickizer534', ]
 tfec = ['elfsuf','coolwhip420', 'nraddlygew', 'sekou', 'stealthinator', 'emended', 'xerelic', 'poweredbyrice', 'duckyduckplaysmc', 'meteoryte']
-# plotGames(tfec)
-# plotChamps('soccer11235')
-
-# plotChamps('xerelic')
-# plotChamps('cyborgsteve')
-# plotCS('CyborgSteve')
-# plotChamps('kevalon')
